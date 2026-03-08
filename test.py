@@ -28,7 +28,7 @@ warnings.filterwarnings("ignore")
 import numpy as np
 import cv2
 import matplotlib
-matplotlib.use("TkAgg")          # đổi thành "Agg" nếu không có GUI
+matplotlib.use("Agg")            # đổi thành "Agg" nếu không có GUI
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
